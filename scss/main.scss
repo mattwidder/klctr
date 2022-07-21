@@ -1,4 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@import 'variables';
+
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+// Utilities
+body { 
+  background: $lprim-color;
+  font-family: 'Roboto', sans-serif;
+  color: $dark-color;
+}
+
+
+// MAIN
+
+main {
+  background: $dprim-color;
+  height: 100vh;
+  width: 100vw;
+  
+
+
+}
+
+// NAVBAR
+
+#navbar {
+  background: rgba($color: $dark-color, $alpha: .2);
+  height: 50px;
+  display: flex;
+}
+
+// Landing Page
+
+.main-landing {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ;
+  
+
+  .logo__display {
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+
+    h1 {
+      font-size: 8rem;
+      color: $lsec-color;
+    }
+
+    p {
+      font-size: 2rem;
+      color: $light-color;
+    }
+  }
+
+  .signup__form {
+    max-width: 40vw;
+    display: flex;
+    color: $dark-color;
+    font-size: 1.4rem
+  }
+
 }

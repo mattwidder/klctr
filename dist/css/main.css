@@ -1,3 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #E3C4F6;
+  font-family: 'Roboto', sans-serif;
+  color: #333; }
+
+main {
+  background: #C59EE2;
+  height: 100vh;
+  width: 100vw; }
+
+#navbar {
+  background: rgba(51, 51, 51, 0.2);
+  height: 50px;
+  display: flex; }
+
+.main-landing {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .main-landing .logo__display {
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem; }
+    .main-landing .logo__display h1 {
+      font-size: 8rem;
+      color: #FCD1DE; }
+    .main-landing .logo__display p {
+      font-size: 2rem;
+      color: #f4f4f4; }
+  .main-landing .signup__form {
+    max-width: 40vw;
+    display: flex;
+    color: #333;
+    font-size: 1.4rem; }
